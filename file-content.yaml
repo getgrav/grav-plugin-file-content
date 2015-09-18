@@ -1,0 +1,5 @@
+enabled: true
+allow_in_page: true                     # Allow files in the current page (e.g. sample.txt)
+allow_in_grav: true                     # Allow files relative to Grav root (e.g. /user/custom/sample.txt)
+allow_in_filesystem: false              # Allow files anywhere on filesystem (e.g. /users/myuser/myfolder/sample.txt)
+allowed_extensions: [txt, html]         # Array of allowed file types to allow
