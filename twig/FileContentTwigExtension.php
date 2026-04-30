@@ -34,7 +34,7 @@ class FileContentTwigExtension extends \Twig_Extension
 
     public function filecontent($path)
     {
-        $path_info = pathinfo($path);
+        $path_info = pathinfo((string) $path);
         $config = Grav::instance()['config']->get('plugins.file-content');
 
         if (in_array($path_info['extension'], $config['allowed_extensions'])) {

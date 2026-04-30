@@ -1,5 +1,5 @@
 name: File Content
-version: 1.0.0
+version: 1.0.1
 description: "**FileContent** is a simple plugin that adds a Twig extension to allow you to include a file into your template"
 icon: paperclip
 author:
@@ -10,6 +10,9 @@ homepage: https://github.com/getgrav/grav-plugin-file-content
 keywords: inject, embed, include
 bugs: https://github.com/getgrav/grav-plugin-file-content/issues
 license: MIT
+
+compatibility:
+  grav: ['1.7', '2.0']
 
 form:
   validation: strict

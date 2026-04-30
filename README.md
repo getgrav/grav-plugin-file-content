@@ -27,7 +27,7 @@ You should now have all the plugin files under
 ```
 enabled: true
 allow_in_page: true                     # Allow files in the current page (e.g. sample.txt)
-allow_in_grav: true                     # Allow files relative to Grav root (e.g. /user/custom/sample.txt)
+allow_in_grav: true                     # Allow files relative to Grav root (e.g. /user/data/custom/sample.txt)
 allow_in_filesystem: false              # Allow files anywhere on filesystem (e.g. /users/myuser/myfolder/sample.txt)
 allowed_extensions: [txt, html]         # Array of allowed file types to allow
 ```
@@ -50,7 +50,7 @@ or
 
 or 
 
-{{ filecontent('/user/custom/sample.txt') }}
+{{ filecontent('/user/data/custom/sample.txt') }}
 ```
 
 [grav]: http://github.com/getgrav/grav
